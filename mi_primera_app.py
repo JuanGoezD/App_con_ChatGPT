@@ -2,7 +2,7 @@ import streamlit as st
 
 # Título y autor
 st.title("Conversor de Unidades")
-st.write("Esta app fue elaborada por \"Tu Nombre\".")
+st.write("Esta app fue elaborada por \"Gabriel Goez\".")
 
 # Lista desplegable para seleccionar el tipo de conversión
 opcion_conversion = st.selectbox("Seleccione el tipo de conversión:",
