@@ -82,21 +82,21 @@ elif opcion_conversion == "Masa":
 elif opcion_conversion == "Volumen":
     opciones_siguientes = ["Galones a Litros", "Litros a Galones", "Pulgadas cúbicas a Centímetros cúbicos", "Centímetros cúbicos a Pulgadas cúbicas"]
   # Mostrar la lista de opciones siguientes
-  conversion_especifica = st.selectbox("Seleccione la conversión:", opciones_siguientes)
-  
-  # Área para ingresar la cantidad a convertir
-  cantidad = st.number_input("Ingrese la cantidad a convertir:")
-  resultado = 0.0  # Inicializar el resultado
-  
-  # Realizar la conversión según la opción seleccionada
-  if conversion_especifica == "Galones a Litros":
-      resultado = cantidad * 3.78541
-  elif conversion_especifica == "Litros a Galones":
-      resultado = cantidad / 3.78541
-  elif conversion_especifica == "Pulgadas cúbicas a Centímetros cúbicos":
-      resultado = cantidad * 16.3871
-  elif conversion_especifica == "Centímetros cúbicos a Pulgadas cúbicas":
-      resultado = cantidad / 16.3871
+    conversion_especifica = st.selectbox("Seleccione la conversión:", opciones_siguientes)
+    
+    # Área para ingresar la cantidad a convertir
+    cantidad = st.number_input("Ingrese la cantidad a convertir:")
+    resultado = 0.0  # Inicializar el resultado
+    
+    # Realizar la conversión según la opción seleccionada
+    if conversion_especifica == "Galones a Litros":
+        resultado = cantidad * 3.78541
+    elif conversion_especifica == "Litros a Galones":
+        resultado = cantidad / 3.78541
+    elif conversion_especifica == "Pulgadas cúbicas a Centímetros cúbicos":
+        resultado = cantidad * 16.3871
+    elif conversion_especifica == "Centímetros cúbicos a Pulgadas cúbicas":
+        resultado = cantidad / 16.3871
   
   # ... (continuar con las demás conversiones)
   
@@ -104,21 +104,21 @@ elif opcion_conversion == "Volumen":
 
 elif opcion_conversion == "Tiempo":
     opciones_siguientes = ["Horas a Minutos", "Minutos a Segundos", "Días a Horas", "Semanas a Días"]
-  conversion_especifica = st.selectbox("Seleccione la conversión:", opciones_siguientes)
-  
-  # Área para ingresar la cantidad a convertir
-  cantidad = st.number_input("Ingrese la cantidad a convertir:")
-  resultado = 0.0  # Inicializar el resultado
-  
-  # Realizar la conversión según la opción seleccionada
-  if conversion_especifica == "Horas a Minutos":
-      resultado = cantidad * 60
-  elif conversion_especifica == "Minutos a Segundos":
-      resultado = cantidad * 60
-  elif conversion_especifica == "Días a Horas":
-      resultado = cantidad * 24
-  elif conversion_especifica == "Semanas a Días":
-      resultado = cantidad * 7
+    conversion_especifica = st.selectbox("Seleccione la conversión:", opciones_siguientes)
+    
+    # Área para ingresar la cantidad a convertir
+    cantidad = st.number_input("Ingrese la cantidad a convertir:")
+    resultado = 0.0  # Inicializar el resultado
+    
+    # Realizar la conversión según la opción seleccionada
+    if conversion_especifica == "Horas a Minutos":
+        resultado = cantidad * 60
+    elif conversion_especifica == "Minutos a Segundos":
+        resultado = cantidad * 60
+    elif conversion_especifica == "Días a Horas":
+        resultado = cantidad * 24
+    elif conversion_especifica == "Semanas a Días":
+        resultado = cantidad * 7
   
   # ... (continuar con las demás conversiones)
   
