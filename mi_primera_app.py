@@ -238,9 +238,4 @@ elif opcion_conversion == "Tamaño de Datos":
     
     st.write(f"Resultado: {resultado:.4f}")
 
-# Mostrar la lista de opciones siguientes
-st.write("Seleccione la conversión específica:")
-conversion_especifica = st.selectbox("Seleccione la conversión:", opciones_siguientes)
-
-st.write(f"Ha seleccionado la conversión: {conversion_especifica}.")
 
